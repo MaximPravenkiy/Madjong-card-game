@@ -1,0 +1,63 @@
+body {
+	background-color: #E0FFFF;
+	margin: 15px 20px;
+}
+
+#memory_game {
+	width: 520px;
+	position: absolute;
+	background: black;
+	color: white;
+	border-radius: 15px;
+	border: 1px solid black;
+	left: 430px;
+}
+
+.card {
+	float: left;
+	padding: 10px;
+	margin: 10px;
+	height: 100px
+	width: 190px;
+	background-color: lightgrey;
+	border-radius: 10px;
+}
+
+img {
+	float: left;
+	border-radius: 10px;
+	width: 90px;
+	height: 120px;
+	cursor: pointer;
+}
+
+.front {
+	display: none;
+}
+
+#textClick, #time {
+	position: absolute;
+	top: 80px;
+	padding: 50px;
+	font-family: Georgia;
+	font-size: 40px;
+	text-align: center;
+	color: #A52A2A;
+}
+
+#countClick, #clock {
+	font-size: 40px;
+}
+
+hr {
+	border: none;
+	height: 5px;
+	background-color: #C71585;
+}
+
+#time {
+	float: right;
+	right: 40px;
+}
+
+
